@@ -2,6 +2,7 @@ import argparse     #importing for CLI support
 import cv2 as cv    #importing computer vision library
 import numpy as np  #importing for matrix operatins
 import os           #importing for manipulating working directory
+
 os.chdir('../../images')    #changing the working directory to there the images are present
 
 class Range(object):        #class definition to restrict floating point numbers within certain range
@@ -21,12 +22,10 @@ input_threshold=args.Threshold      #getting the threshold
 
 methods={0:'cv.TM_CCOEFF_NORMED',1:'cv.TM_CCORR_NORMED',2:'cv.TM_SQDIFF_NORMED'}        #converting numbers to its equivalent method
 
-
 test_rgb = cv.imread('test_image.png')  #loading the test image
 test_gray = cv.cvtColor(test_rgb, cv.COLOR_BGR2GRAY)    #converting the test image into grayscale
 template_gray = cv.imread('template_image.png',0)       #loading the template image in grayscale
 w, h = template_gray.shape[::-1]        #getting the width and height of the template image
-
 
 res = cv.matchTemplate(test_gray,template_gray,eval(methods[input_method]))     #template matching with corresponding method
 if (input_method!=2):       #finding the locations where the values are in our interest (above or below threshold value)
