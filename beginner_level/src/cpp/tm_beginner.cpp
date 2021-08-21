@@ -7,10 +7,10 @@ int main()
 {
 	//reading the test and template images in BGR format
 	cv::Mat img_rgb = cv::imread("../../images/test_image.png", cv::IMREAD_COLOR); 
-	cv::Mat template_rgb = cv::imread("../../images/template_image1.png", cv::IMREAD_COLOR);
+	cv::Mat template_rgb = cv::imread("../../images/template_image.png", cv::IMREAD_COLOR);
 
 	if (img_rgb.empty() || template_rgb.empty())
-	{	//if either of those images are empty, exit from the main function with -1
+	{	//if either of those images is empty, exit from the main function with -1
 		std::cout << "Error reading file(s)!" << std::endl;
 		return -1;
 	}
