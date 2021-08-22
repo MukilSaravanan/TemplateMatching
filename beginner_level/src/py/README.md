@@ -18,3 +18,5 @@ description: Enter the template matching method with its corresponding threshold
 | tm_method  |0 for Cross Coefficent norm, 1 for Cross Correlation norm, 2 for Square Difference norm |
 | threshold | Normalised value [0,1] |
 
+
+The result image will be stored inside 'images' directory (i.e. two level up) with the name 'Output_image_<tm_method>_<threshold>.png'
