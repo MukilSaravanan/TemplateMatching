@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 import imutils
 
-template=cv.imread("../../images/choco_pie_top.png",0)
+template=cv.imread("../../images/choco_pie_top.png")
 cv.imshow("Template",template)
 print("template size:",template.shape)
 
