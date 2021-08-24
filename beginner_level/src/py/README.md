@@ -20,8 +20,8 @@ description: Enter the template matching method with its corresponding threshold
 
 
 The result image will be stored inside '[images](https://github.com/MukilSaravanan/TemplateMatching/tree/master/beginner_level/images)' directory (i.e. two level up) with the name 'Output_image_<tm_method>_<threshold>.png'
- 
-**Please read the comments for more information **
+
+ **Please read the comments for more information**
  
 
 
