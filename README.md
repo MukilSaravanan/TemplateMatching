@@ -9,11 +9,11 @@
 │   │   ├── *.png                                 #contains the template,test and result images
 │   ├──src
 │   │   ├── cpp
-│   │   │   ├──README.md
+│   │   │   ├──README.md                          #contains the instructions about complitation, execution of the source code on CLI and others
 │   │   │   ├──output                             #binary executable file
 │   │   │   ├──tm_beginner.cpp                    #source code
 │   │   ├── py
-│   │   │   ├──README.md
+│   │   │   ├──README.md                          #contains the instructions about execution of the source code on CLI and others
 │   │   │   ├──tm_beginner.py                     #source code
 ├── expert_level
 │   ├──images
@@ -27,7 +27,7 @@
 │   │   ├── py
 │   │   │   ├──.intermittent_dir_for_testing
 │   │   │   │   ├──*.py                           #contains the source codes used for intermittent testing 
-│   │   │   ├──README.md
+│   │   │   ├──README.md                          #contains the instructions about execution of the source code on CLI and others
 │   │   │   ├──tm_expert.py                       #source code
 └──README.md                                      #this file
 ```
