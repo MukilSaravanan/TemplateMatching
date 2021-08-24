@@ -19,4 +19,7 @@ description: Enter the template matching method with its corresponding threshold
 | threshold | Normalised value [0,1] |
 
 
-The result image will be stored inside 'images' directory (i.e. two level up) with the name 'Output_image_<tm_method>_<threshold>.png'
+The result image will be stored inside '[images](https://github.com/MukilSaravanan/TemplateMatching/tree/master/beginner_level/images)' directory (i.e. two level up) with the name 'Output_image_<tm_method>_<threshold>.png'
+ 
+
+
