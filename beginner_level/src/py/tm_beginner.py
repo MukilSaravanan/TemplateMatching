@@ -1,6 +1,6 @@
 import argparse     #importing for CLI support
 import cv2 as cv    #importing computer vision library
-import numpy as np  #importing for matrix operatins
+import numpy as np  #importing for matrix operations
 import os           #importing for manipulating working directory
 
 os.chdir('../../images')    #changing the working directory to there the images are present
@@ -37,5 +37,5 @@ for pt in zip(*loc[::-1]):
 cv.imwrite('Output_image_{}_{}.png'.format(methods[input_method],input_threshold),test_rgb)     #storing the output image
 cv.imshow("Output_image",test_rgb)      #displaying the output image
 cv.imshow("res",res)            #displaying the resultant image
-cv.waitKey(0)           #wait for a key press 
+cv.waitKey(0)           #waiting for a key press 
 cv.destroyAllWindows()      #destroying all the windows
