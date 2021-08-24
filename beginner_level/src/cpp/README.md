@@ -1,5 +1,5 @@
 # Template Matching -Beginner Level
-## c++
+## C++
  
 To compile in Command Line Interface (CLI),
 
@@ -10,4 +10,4 @@ To execute in CLI,
 ```
 ./output
 ```
-The result image will be stored inside 'images' directory (i.e. two level up) with the name 'Final.png'
+The result image will be stored inside '[images](https://github.com/MukilSaravanan/TemplateMatching/tree/master/beginner_level/images)' directory (i.e. two level up) with the name 'Final.png'
