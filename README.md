@@ -47,5 +47,5 @@
 ![Final](https://github.com/MukilSaravanan/TemplateMatching/blob/master/beginner_level/images/Final.png)
 
 ## Template_Matching - Expert level - py
-### cv2.TM_CCOEFF
+### cv2.TM_CCOEFF, Multi-Scale template matching
 ![mstm1_out](https://github.com/MukilSaravanan/TemplateMatching/blob/master/expert_level/images/result_img/mstm1_out.png)
